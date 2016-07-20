@@ -24,6 +24,7 @@ int main()
 		itoa(num2, str2, 10);
 		strcat(strs, str2);
 	}
+	strcat(strs, ".dat");
 	printf(strs);
 
 	char szcmd[256] = "cmd /c rename ";
