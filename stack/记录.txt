@@ -1,0 +1,3 @@
+MessageBoxA  user32.dll
+LoadLibraryA kenerl32.dll
+ExitProcess  kenerl32.dll
