@@ -59,6 +59,7 @@ int main(int argc, char *argv[])
 			event = (struct inotify_event *)&buf[nread];
 			for(i=0; i<EVENT_NUM; i++)
 			{
+				//if((event->mask ) & IN_CREATE) 当文件被创建的时候
 				if((event->mask >> i) & 1)
 				{
 					if(event->len > 0)
