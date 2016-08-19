@@ -20,6 +20,7 @@ int main()
 	{
 		try
 		{
+			//jmp esp 机器码是FFE4
 			if (ptr[position]==0xFF && ptr[position+1]==0xE4)
 			{
 				int address = (int)ptr + position;
