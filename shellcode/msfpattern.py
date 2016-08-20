@@ -1,4 +1,4 @@
-#python msfpattern.py create 200
+#python msfpattern.py create 200>1.txt
 #python msfpattern.py offset 0x64413764
 #获取到的大小是返回地址前。
 import sys
