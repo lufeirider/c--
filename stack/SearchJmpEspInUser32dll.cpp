@@ -37,3 +37,5 @@ int main()
 	getchar();
 	return 0;
 }
+
+xp通用 0x7ffa4512
