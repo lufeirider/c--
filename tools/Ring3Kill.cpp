@@ -44,7 +44,7 @@ void main()
     OpenProcessToken (GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES, &hToken);
     EnablePrivilege (hToken, SE_DEBUG_NAME, TRUE);
 
-    if (Pid = GetPidByName("notepad.exe"))
+    if (Pid = GetPidByName("SafeDogGuardCenter.exe"))
     {
         KillProcess (Pid);
     }
