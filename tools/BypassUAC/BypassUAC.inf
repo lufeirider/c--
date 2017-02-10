@@ -1,0 +1,8 @@
+[Version]
+Signature="$windows NT$"
+
+[DefaultInstall]
+RegisterDlls=OurDll
+
+[OurDll]
+01,,BypassUAC.dll,2
