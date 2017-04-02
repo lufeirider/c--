@@ -32,7 +32,7 @@ int main()
 	return 0;
 }
 
-
+http://www.cnblogs.com/kkun/archive/2011/11/23/2260280.html
 1(当前排序) 1(3和2交换) 1（3和1交换）
 2           2           3
 3           3           2
